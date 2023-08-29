@@ -1,0 +1,148 @@
+.login-col-1 {
+  background-color: #249ef0;
+}
+
+.login-welcome-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  color: #249ef0;
+  font-size: larger;
+}
+.main {
+  position: relative;
+}
+.register-welcome-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Rubik", sans-serif;
+  padding: 0 7rem;
+}
+.profile-tweet-img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 999px;
+}
+.inv-btn {
+  background-color: white;
+  border: none;
+}
+
+.sidebar-hover:hover {
+  background-color: #88e5f2;
+}
+.delete-btn {
+  color: #e0245e;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+}
+.delete-btn:hover {
+  color: #ff6382;
+}
+.inv-btn span {
+  text-decoration: none;
+}
+
+.tweet-img-cont {
+  overflow: hidden;
+}
+
+.link-styled-none {
+  text-decoration: none;
+}
+.tweet-img {
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  object-fit: contain;
+}
+
+.sidebar-cont {
+  width: 300px;
+  top: 0;
+  height: 100vh;
+}
+
+.retweet {
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.retweet-btn {
+  color: #249ef0;
+}
+
+.time {
+  font-size: smaller;
+}
+
+.blue {
+  position: relative;
+  background-color: #249ef0;
+  min-height: 150px;
+  width: 100%;
+}
+
+.profile-img {
+  position: absolute;
+  bottom: -60px;
+  left: 15px;
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 9999px;
+}
+
+.profile-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+
+.scroll {
+  overflow: hidden;
+}
+
+.scroll-on {
+  overflow-y: auto;
+}
+.link-default-off {
+  text-decoration: none;
+  color: black;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+}
+.custom-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #f8f9fa #dee2e6; /* Firefox */
+  overflow-y: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Chrome, Safari, and Opera */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #adb5bd; /* Color of the thumb */
+  border-radius: 4px; /* Border radius of the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #6c757d; /* Color of the thumb on hover */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #dee2e6; /* Color of the track */
+  border-radius: 4px; /* Border radius of the track */
+  margin-right: -8px;
+}
